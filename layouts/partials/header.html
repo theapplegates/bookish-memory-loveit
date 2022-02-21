@@ -1,5 +1,16 @@
 {{- /* Desktop header */ -}}
 <header class="desktop" id="header-desktop">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@1/dist/algoliasearchNetlify.css" />
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@1/dist/algoliasearchNetlify.js"></script>
+    <script type="text/javascript">
+      algoliasearchNetlify({
+        appId: '603ITV2EFN',
+        apiKey: '709f7dc50476145058614c7c92007956',
+        siteId: '4f0ef3e5-a360-4028-9112-3fd7313e2cb6',
+        branch: 'main',
+        selector: 'div#search',
+      });
+    </script>
     <div class="header-wrapper">
         <div class="header-title">
             <a href="{{ .Site.Home.RelPermalink }}" title="{{ .Site.Title }}">

@@ -4,7 +4,8 @@
   "description": "LoveIt theme source file",
   "private": true,
   "dependencies": {
-    "atomic-algolia": "^0.3.19"
+    "atomic-algolia": "^0.3.19",
+    "npm-force-resolutions": "^0.0.10"
   },
   "devDependencies": {
     "@babel/cli": "^7.8.4",

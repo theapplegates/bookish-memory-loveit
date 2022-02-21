@@ -17,6 +17,12 @@ categories: ["Markdown"]
 lightgallery: true
 ---
 
+![Family](https://applegate-paul.mo.cloudinary.net/https://storage.googleapis.com/cloudinarymedia/images/Dad-kevin-meApril-10-2010.jpg)
+
+
+
+
+
 This article offers a sample of basic Markdown syntax that can be used in Hugo content files.
 
 <!--more-->
@@ -49,6 +55,10 @@ John Gruber, the author of Markdown, puts it like this:
 > the single biggest source of inspiration for Markdown’s syntax is the format of plain text email.
 >
 > {{< style "text-align: right;" >}}-- _John Gruber_{{< /style >}}
+
+
+
+![signature](https://applegate-paul.mo.cloudinary.net/https://storage.googleapis.com/cloudinarymedia/images/Signature-Paul-Applegate-maybe-last.png)
 
 Without further delay, let us go over the main elements of Markdown and what the resulting HTML looks like!
 
